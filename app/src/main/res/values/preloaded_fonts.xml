@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/akaya_kanadaka</item>
+        <item>@font/akaya_telivigala</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/chakra_petch</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/gentium_book_basic_bold_italic</item>
+        <item>@font/montserrat</item>
+    </array>
+</resources>

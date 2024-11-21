@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pink_light"
+    tools:context=".Activity3">
+
+    <TextView
+        android:id="@+id/article_results"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/results"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/article_start_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/start_price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/start_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/article_start_price"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/article_f_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/Finish_price"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_start_price" />
+
+    <TextView
+        android:id="@+id/finish_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="134dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/article_f_price"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/article_t_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/total_amount"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_f_price" />
+
+    <TextView
+        android:id="@+id/total_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="182dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/article_t_amount"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/article_f_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/first_payment"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_t_amount" />
+
+    <TextView
+        android:id="@+id/first_payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/article_f_payment"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/article_sum_percents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/sum_of_percents"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_f_payment" />
+
+    <TextView
+        android:id="@+id/sum_of_percents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="280dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        android:textAlignment="viewStart"
+        app:layout_constraintStart_toEndOf="@+id/article_sum_percents"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/article_replenishment_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/replenishment_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_sum_percents" />
+
+    <TextView
+        android:id="@+id/article_replenishment_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/replenishment_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_replenishment_1" />
+
+    <TextView
+        android:id="@+id/article_replenishment_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/replenishment_3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_replenishment_2" />
+
+    <TextView
+        android:id="@+id/replenishment_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/article_replenishment_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/replenishment_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="377dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/article_replenishment_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/replenishment_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="426dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/article_replenishment_3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/article_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/spinner"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_replenishment_3" />
+
+    <TextView
+        android:id="@+id/spinner_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="474dp"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/article_spinner"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/pink_dark"
+        android:fontFamily="@font/gentium_book_basic_bold_italic"
+        android:text="@string/share_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/article_spinner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Калькулятор накоплений</string>
+    <string name="hint_1">Логин</string>
+    <string name="authorization">Вход в приложение</string>
+    <string name="hint_2">Пароль</string>
+    <string name="btn_login">Войти</string>
+    <string name="author">Разработчик: Степеренкова Любовь, группа РИБО-02-22</string>
+    <string name="meters">Количество квадратных метров:</string>
+    <string name="price_of_one_meter">Цена за квадратный метр:</string>
+    <string name="price_change_rate">Ставка изменения цены недвижимости(годовая):</string>
+    <string name="available_price">Сумма, которая имеется сейчас:</string>
+    <string name="interest_rate">Процентная ставка (годовая):</string>
+    <string name="replenishment">Ежемесячные ополнения:</string>
+    <string name="currency">Выберите валюту:</string>
+    <string name="btn_result">Посчитать результат</string>
+    <string name="results">Результат вычислений</string>
+    <string name="start_price">Начальная стоимость недвижмости:</string>
+    <string name="Finish_price">Итоговая стоимость недвижмости:</string>
+    <string name="total_amount">Итоговая сумма на сберегательном счёте:</string>
+    <string name="first_payment">Сумма первоначального взноса:</string>
+    <string name="sum_of_percents">Сумма начисленных процентов:</string>
+    <string name="share_button">Поделиться результатом</string>
+    <string name="replenishment_1">Количество полных лет до накопления:</string>
+    <string name="replenishment_2">Общая сумма месяцев до накопления:</string>
+    <string name="replenishment_3">Общая сумма пополнений за все месяцы:</string>
+    <string name="spinner">Валюта всех денежных сумм выше:</string>
+</resources>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Savings calculator</string>
+    <string name="hint_1">Login</string>
+    <string name="authorization">Authorization</string>
+    <string name="hint_2">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="author">Developer: Stepenenkova Lyubov, group RIBO-02-22</string>
+    <string name="meters">Number of square meters:</string>
+    <string name="price_of_one_meter">Price per square meter:</string>
+    <string name="price_change_rate">Real estate price change rate (annual):</string>
+    <string name="available_price">Amount currently available:</string>
+    <string name="interest_rate">Interest rate (annual):</string>
+    <string name="replenishment">Monthly refills:</string>
+    <string name="currency">Select currency:</string>
+    <string name="btn_result">Calculate result</string>
+    <string name="results">Calculation result</string>
+    <string name="start_price">Initial cost of real estate:</string>
+    <string name="Finish_price">Total cost of real estate:</string>
+    <string name="total_amount">Total amount in savings account:</string>
+    <string name="first_payment">Down payment amount:</string>
+    <string name="sum_of_percents">Amount of accrued interest:</string>
+    <string name="share_button">Share result</string>
+    <string name="replenishment_1">Number of full years before accumulation:</string>
+    <string name="replenishment_2">Total amount of months before accumulation:</string>
+    <string name="replenishment_3">Total amount of deposits for all months:</string>
+    <string name="spinner">Currency of all monetary amounts above:</string>
+</resources>
